@@ -1,13 +1,6 @@
 import { ADD_TO_CART, EMPTY_CART, REMOVE_FROM_CART } from "./constants";
 
 export const cartData = (data = [], action) => {
-	// if (action.type === ADD_TO_CART) {
-	// 	console.warn("Reducer called", action);
-	// 	return action.data;
-	// } else {
-	// 	return "abc";
-	// }
-
 	switch (action.type) {
 		case ADD_TO_CART:
 			console.warn("ADD_TO_CART reducer called", action);
