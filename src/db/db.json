@@ -1,0 +1,36 @@
+{
+	"product": [
+		{
+			"id": 1,
+			"name": "Realme",
+			"color": "Thunder blue",
+			"price": 19000,
+			"category": "mobile",
+			"photo": "https://i.pinimg.com/originals/70/84/f4/7084f4182630ae4bd2bcc9cbaa831d6e.png"
+		},
+		{
+			"id": 2,
+			"name": "Samsung",
+			"color": "Blue",
+			"price": 15000,
+			"category": "mobile",
+			"photo": "https://i.pinimg.com/originals/70/84/f4/7084f4182630ae4bd2bcc9cbaa831d6e.png"
+		},
+		{
+			"id": 3,
+			"name": "Moto",
+			"color": "Black",
+			"price": 14000,
+			"category": "mobile",
+			"photo": "https://i.pinimg.com/originals/70/84/f4/7084f4182630ae4bd2bcc9cbaa831d6e.png"
+		},
+		{
+			"id": 4,
+			"name": "Iphone",
+			"color": "Gray",
+			"price": 190000,
+			"category": "mobile",
+			"photo": "https://i.pinimg.com/originals/70/84/f4/7084f4182630ae4bd2bcc9cbaa831d6e.png"
+		}
+	]
+}
