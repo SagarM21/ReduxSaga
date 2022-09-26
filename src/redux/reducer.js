@@ -7,8 +7,9 @@ export const cartData = (data = [], action) => {
 			return [action.data, ...data];
 		case REMOVE_FROM_CART:
 			console.warn("REMOVE_FROM_CART reducer called", action);
-			data.length = data.length ? data.length - 1 : [];
-			return [...data];
+			// data.length = data.length ? data.length - 1 : [];
+			let remItems = data.filter((item) => item.id !== action.data);
+			return [...remItems];
 		case EMPTY_CART:
 			console.warn("EMPTY_CART reducer called", action);
 			data = [];

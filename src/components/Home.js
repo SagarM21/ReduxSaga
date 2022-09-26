@@ -18,8 +18,8 @@ const Home = () => {
 			</div>
 
 			<div className='product-container'>
-				{productData.map((item) => (
-					<div className='product-item'>
+				{productData.map((item, i) => (
+					<div className='product-item' key={i}>
 						<img src={item.photo} alt='' className='product_img' />
 						<div>Name: {item.name}</div>
 						<div>Color: {item.color}</div>
@@ -29,7 +29,7 @@ const Home = () => {
 							<button onClick={() => dispatch(addToCart(item))}>
 								Add to cart
 							</button>
-							<button onClick={() => dispatch(removeFromCart(item.name))}>
+							<button onClick={() => dispatch(removeFromCart(item.id))}>
 								Remove from cart
 							</button>
 						</div>
