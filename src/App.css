@@ -121,6 +121,17 @@
 .price-details .adjust-price span {
 	font-size: 20px;
 }
+
+.search-box {
+	width: 60%;
+	float: left;
+	padding: 25px;
+}
+.search-box input {
+	width: 100%;
+	height: 30px;
+	padding-left: 30px;
+}
 @keyframes App-logo-spin {
 	from {
 		transform: rotate(0deg);
