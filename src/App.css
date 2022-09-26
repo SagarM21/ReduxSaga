@@ -84,12 +84,43 @@
 	padding: 10px;
 }
 
-.logo{
+.logo {
 	margin: 0;
 	padding: 20px;
 	float: left;
 }
 
+.cart-page-container {
+	display: flex;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.cart-page-container table {
+	flex: 65%;
+	border-collapse: collapse;
+}
+
+.cart-page-container table td {
+	border: 1px solid #141414;
+	padding: 15px;
+}
+
+.price-details {
+	flex: 35%;
+	margin: 0px 30px;
+}
+.price-details .adjust-price {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 10px;
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
+}
+
+.price-details .adjust-price span {
+	font-size: 20px;
+}
 @keyframes App-logo-spin {
 	from {
 		transform: rotate(0deg);
